@@ -588,6 +588,7 @@ margin-bottom: 0;
 }
 .portfolio-link{
     text-decoration: none;
+    position: relative;
 }
 .portfolio-link:hover,
 .portfolio-link:focus {
@@ -613,16 +614,14 @@ margin-bottom: 0;
     box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.6);
 }
  
-.image{
-    position: relative;
-}
-.image::before{
+
+.overlay{
     display: inline-block;
     content: "";
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 370px;
+    height: 294px;
     background-color: rgba(33, 150, 243, 0.9);
 }
