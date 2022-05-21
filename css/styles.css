@@ -81,7 +81,19 @@ ul{
     margin-right: 0;
 }
 .link.current{
-    color: var(--accent);}
+    color: var(--accent);
+    position: relative;
+}
+.link.current::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: var(--accent);
+}
 .link{
     font-weight: 500;
     font-size: 14px;
@@ -92,6 +104,9 @@ ul{
     padding-top: 32px;
     padding-bottom: 32px;
     display: block;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 .link:hover,
 .link:focus {
@@ -117,6 +132,9 @@ ul{
     padding-bottom: 32px;
     display: flex;
     align-items:center;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-contacts-mail:hover{
     color: var(--accent);
@@ -135,6 +153,9 @@ ul{
     padding-bottom: 32px;
     align-items: center;
     display: flex;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-contacts-tel:hover{
     color: var(--accent);
@@ -204,7 +225,7 @@ margin-right: 10px;
     height: 100%;
     background-color:rgba(0, 0, 0, 0.2);
 }
-.backdrop .is-hidden{
+.backdrop.is-hidden{
     opacity: 0;
     pointer-events: none;
 }
