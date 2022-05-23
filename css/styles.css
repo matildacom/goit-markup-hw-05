@@ -700,4 +700,4 @@ portfolio-link::before{
     transition: transform var(--transition-duration);
     opacity: 1;
 }
-portfolio-all-btn:focus
+
