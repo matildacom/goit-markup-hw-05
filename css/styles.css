@@ -240,6 +240,17 @@ margin-right: 10px;
     left:50%;
     transform: translate(-50%, -50%);
 }
+.modal-button{
+    position: absolute;
+    top:17px;
+    right: 17px;
+    background-color: var(--secondary-background-color);
+    color: rgba(0, 0, 0, 0.1);
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border-color: rgba(0, 0, 0, 0.1);
+}
 
 
 /*features*/
