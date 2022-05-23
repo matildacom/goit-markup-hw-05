@@ -667,13 +667,10 @@ portfolio-link::before{
     position: absolute;
     top: 0;
     left: 0;
-    padding-top: 27px;
-    padding-bottom: 27px;
-    text-align: center;
     width: 100%;
     height: 100%;
     background-color: rgba(33, 150, 243, 0.9);
-   
+    padding: 63px 24px;
     color: var(--text-color);
     font-size: 18px;
     line-height: 1.5;
