@@ -322,7 +322,8 @@ margin-right: 10px;
     left: 0;
     width:370px ;
     height:70px;
-    padding:90px 27px;
+    text-align: center;
+    padding-top: 27px;
     
     font-style: bold; 
     font-size: 14px ;
@@ -330,7 +331,6 @@ margin-right: 10px;
     Letter-spacing: 3%;
     color: var(--text-color);
     background-color: rgba(47, 48, 58, 0.8);
-    
 }
 
 /*team*/
