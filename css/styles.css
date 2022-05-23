@@ -384,6 +384,9 @@ margin-right: 10px;
     height: 44px;
     background-color: var(--secondary-background-color);
     border-radius: 50%;
+    transition-property:background-color,fill;
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--timing-function);
 }
 .social-link:hover{   
     background-color: var(--accent);
@@ -422,6 +425,9 @@ margin-right: 30px;
     border:1px solid var(--main-border-color) ;
     border-radius: 4px;
     fill: var(--main-border-color);
+    transition-property: fill,var(--border-color);
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--timing-function);
 }
 .clients-link:hover{
    border-color: var(--accent);
