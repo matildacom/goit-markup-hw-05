@@ -593,6 +593,9 @@ margin-bottom: 0;
     text-align: center;
     background:var(--main-background-color);
     color: var(--main-text-color);
+    transition-property: box-shadow, color, background-color;
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--timing-function);
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus{
@@ -614,6 +617,9 @@ margin-bottom: 0;
         text-align: center;
         background: var(--accent);
         color:var(--text-color);
+        transition-property: box-shadow,color,background-color;
+        transition-duration:var(--transition-duration);
+        transition-timing-function: var(--timing-function);
 }
 .portfolio-all-btn:hover,
 .portfolio-all-btn:focus {
