@@ -653,11 +653,13 @@ margin-bottom: 0;
 }
 .portfolio-link{
     text-decoration: none;
-   
 }
 .overlay{
     position: relative;
     overflow: hidden;
+    transition-property: box-shadow;
+    transition-duration: 2000ms;
+    transition-timing-function: var(--timing-function);
 }
 .portfolio-link:hover,
 .portfolio-link:focus {
