@@ -644,6 +644,9 @@ margin-bottom: 0;
     width: 370px;
     margin-right: 30px;
     margin-bottom: 30px;
+    transition-property: box-shadow;
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--timing-function);
 }
 .portfolio-item:nth-child(3n){
     margin-right: 0;
@@ -662,8 +665,6 @@ margin-bottom: 0;
     color: var(--text-color);
     cursor: pointer;
 }
-
-
 .portfolio-content{
     line-height: 1.8;
     letter-spacing: 0.03em;
@@ -676,7 +677,8 @@ margin-bottom: 0;
     padding-bottom: 20px;
     border-bottom: 1px solid var(--secondary-border-color);
     border-right:1px solid var(--secondary-border-color) ;
-    border-left:1px solid var(--secondary-border-color) ;}
+    border-left:1px solid var(--secondary-border-color) ;
+}
 .portfolio-item:hover{
     box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.6);
 }
