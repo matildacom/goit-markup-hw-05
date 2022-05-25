@@ -400,7 +400,7 @@ margin-right: 10px;
 }
 .social-link:hover{   
     background-color: var(--accent);
-fill: var(--secondary-background-color);
+    fill: var(--secondary-background-color);
 }
 .social-link:focus{
     background-color: var(--accent);
@@ -435,7 +435,7 @@ margin-right: 30px;
     border:1px solid var(--main-border-color) ;
     border-radius: 4px;
     fill: var(--main-border-color);
-    transition-property: fill,var(--border-color);
+    transition-property: fill, border-color;
     transition-duration: var(--transition-duration);
     transition-timing-function: var(--timing-function);
 }
@@ -710,4 +710,7 @@ portfolio-link::before{
     transition: transform var(--transition-duration);
     opacity: 1;
 }
-
+.portfolio-link:focus .portfolio-text {
+    transform: translateY(0);
+    transition: transform var(--transition-duration);
+    opacity: 1;}
