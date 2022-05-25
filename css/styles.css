@@ -685,8 +685,7 @@ margin-bottom: 0;
     border-left:1px solid var(--secondary-border-color) ;
 }
 
- 
-.portfolio-text{
+ .portfolio-text{
     position: absolute;
     top: 0;
     left: 0;
@@ -713,4 +712,7 @@ margin-bottom: 0;
     transform: translateY(0);
     transition: transform var(--transition-duration);
     opacity: 1;
+}
+.overlay{
+    
 }
